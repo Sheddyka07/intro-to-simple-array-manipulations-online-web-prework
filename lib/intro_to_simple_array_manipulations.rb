@@ -39,10 +39,17 @@ def using_flatten(array)
 end 
 
 def using_delete(array, string)
+<<<<<<< HEAD
   array.delete(string)
 end 
 
 def using_delete_at(array, integer)
   array.delete_at(integer)
 end 
+=======
+  delete_if{|array = string|}
+end 
+
+
+>>>>>>> 14cde1c3a7c32685d6e13b71c2b885648c83ffba
 
